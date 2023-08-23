@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img, p{
+  display: block;
+  margin: 0 auto;
+  width:auto;
+  height: 300px
+}
+iframe {
+  height: 60vh;
+  width: 500px;
+}
+section.center p {
+  line-height: 25px;
+}
+section.center {
+  text-align: center;
+}
+body{
+  background-color: aliceblue;
+  background-image: url('img/stars4.png');
+  background-size: contain;
+  color: white;
+  text-shadow: 1px 1px rgb(68, 64, 64);
+}
+p {
+  text-shadow: 1px 1px rgb(27, 27, 27);
+  font-size: 20px;
+  padding: 0 10vh;
+}
+
+
+.hidden{
+	display: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
